@@ -1,0 +1,54 @@
+.container {
+    background: linear-gradient(#d7ebff, #e8e6f2);
+    color: rgb(104, 124, 211);
+}
+
+.overflow-auto {
+    max-height: 40vh;
+    padding-left: 28px;
+    padding-right: 18px;
+}
+
+.overflow-auto::-webkit-scrollbar {
+    width: 1vw;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    background-color: rgb(198, 212, 255);
+    border-radius: 1rem;
+}
+
+.border-top {
+    border: 2px solid rgb(106, 108, 117);
+}
+
+.progress {
+    background-color: #FFFFFF;
+}
+
+.progress-bar {
+    background-color: rgb(130, 150, 240);
+    border-radius: 20rem;
+}
+
+.progress-text {
+    color: rgb(104, 124, 211);
+}
+
+.start {
+    border-left: 5px solid rgb(130, 150, 240);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.form-check-input:checked {
+    background-color: rgb(130, 150, 240);
+}
+
+.add {
+    background-color: rgb(130, 150, 240);
+}
+
+.isCheck {
+    border: none;
+}
